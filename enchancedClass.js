@@ -5,11 +5,11 @@ class School {
     }
 }
 class Student extends School {
-  constructor(Schoolname, Place, name, age){
-  super(Schoolname, Place);
+  constructor(Schoolname, name, age){
+  super(Schoolname);
    this.name = name;
    this.age = age;
   }
 }
 
-let student  = new Student('Krishna School','Ongole','Mahehs', 21);
+let student  = new Student('Krishna School','Ongole''Mahehs', 21);
