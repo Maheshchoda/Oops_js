@@ -12,4 +12,5 @@ class Student extends School {
   }
 }
 
-let student  = new Student('Krishna School','Ongole','Mahehs', 21);
+let student  = new Student('Krishna School','Ongole','Mahesh', 21);
+ 
